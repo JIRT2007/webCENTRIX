@@ -49,8 +49,7 @@ p a {
     transition: 300ms;
 }
 
-.botones,
-.botones2 {
+.botones {
     display: flex;
     justify-content: center;
     align-items: center;
