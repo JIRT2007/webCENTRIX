@@ -62,7 +62,7 @@ p a {
     display: flex;
     align-items: center;
     justify-content: center;
-     gap: 10px;
+    gap: 10px;
     width: 200px;
     padding: 15px 25px;
     background-color: #7A7CF7;
@@ -81,7 +81,49 @@ p a {
     height: 35px;
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
 
+.video-container video {
+    width: min(100%, 1400px);
+    height: auto;
+    border-radius: 4px;
+    border: 2px solid #7A7CF7;
+    background: #000;
+}
+
+.bloque {
+    width: 70%;
+    max-width: 1000px;
+    margin: 2px auto;
+    padding: 0;
+    background-color: #0d1117;
+    color: white;
+    border: 2px solid #7A7CF7;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.bloque pre {
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15px;
+    line-height: 1.5;
+    overflow-x: auto;
+}
+
+code {
+    font-family: inherit;
+}
 
 /*TABLET*/
 @media (max-width: 768px) {

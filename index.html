@@ -20,5 +20,32 @@
         <a href="https://debian.org/" target="_blank" class="boton"><img src="ICON/Debian.svg" alt="">Debian</a>
     </main>
 
+   <section class="video-container">
+        <video controls preload="metadata">
+            <source src="/VIDEO/video.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+        </video>
+    </section>
+
+    <div class="bloque">
+        <pre><code>
+    sudo nano /etc/apt/sources.list.d/debian-backports.sources
+
+            Types: deb deb-src
+            URIs: http://deb.debian.org/debian
+            Suites: trixie-backports
+            Components: main
+            Enabled: yes    
+            Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+    sudo apt-get update
+
+    git clone https://github.com/JIRT2007/centrixOS.git
+
+    chmod +x centrixOS/install.sh
+    ./centrixOS/install.sh 
+        </code></pre>
+    </div>
+
 </body>
 </html>
