@@ -27,23 +27,27 @@
         </video>
     </section>
 
+    <h1 class="instalacionTITLE">Installation steps</h1>
+
     <div class="bloque">
         <pre><code>
-    sudo nano /etc/apt/sources.list.d/debian-backports.sources
+    sudo apt install git
 
-            Types: deb deb-src
-            URIs: http://deb.debian.org/debian
-            Suites: trixie-backports
-            Components: main
-            Enabled: yes    
-            Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
-
-    sudo apt-get update
+    git config --global user.name "USERNAME"
+    git config --global user.email "USERMAIL"
 
     git clone https://github.com/JIRT2007/centrixOS.git
 
     chmod +x centrixOS/install.sh
     ./centrixOS/install.sh 
+
+       [Step 1] --> 2) Enable Debian Trixie/Backports. 
+       [Step 2] --> 1) Install CentrixOS.
+       [Step 3] --> 0) Exit.
+    
+    sudo reboot now
+
+    hyprland
         </code></pre>
     </div>
 
