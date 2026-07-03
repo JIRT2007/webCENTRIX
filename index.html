@@ -10,14 +10,15 @@
 <body>
     <header class="titulo">
         <h1>CentrixOS</h1>
-        <p>Customization for Debian GNU/Linux developed by <a href="https://github.com/JIRT2007" target="_blank" class="developer">JIRT2007</a> inspired by <a href="https://omarchy.org/" target="_blank" class="developer">Omarchy</a></p>
+        <p>Customization for GNU/Linux developed by <a href="https://github.com/JIRT2007" target="_blank" class="developer">JIRT2007</a> inspired by <a href="https://omarchy.org/" target="_blank" class="developer">Omarchy</a></p>
     </header>
 
     <main class="botones">
-        <a href="https://github.com/JIRT2007/centrixOS.git" target="_blank" class="boton"><img src="ICON/GitHub.svg" alt="">GitHub</a>
+        <a href="https://github.com/JIRT2007/centrixOS.git" target="_blank" class="boton"><img src="ICON/GitHub.svg" alt="">Github</a>
         <a href="FRONT/changelog.html" class="boton"><img src="ICON/Gear.svg" alt="">Changelog</a>
         <a href="FRONT/themes.html" class="boton"><img src="ICON/Paint.svg" alt=""> Themes</a>
-        <a href="https://debian.org/" target="_blank" class="boton"><img src="ICON/Debian.svg" alt="">Debian</a>
+        <a href="FRONT/manual.html" class="boton"><img src="ICON/book.svg" alt="">Manual</a>
+        <a href="FRONT/frozen.html" class="boton"><img src="ICON/ICE.svg" alt="">Frozen versions</a>
     </main>
 
    <section class="video-container">
@@ -31,7 +32,8 @@
 
     <div class="bloque">
         <pre><code>
-    sudo apt install git
+    
+    install git
 
     git config --global user.name "USERNAME"
     git config --global user.email "USERMAIL"
@@ -41,9 +43,8 @@
     chmod +x centrixOS/install.sh
     ./centrixOS/install.sh 
 
-       [Step 1] --> 2) Enable Debian Trixie/Backports. 
-       [Step 2] --> 1) Install CentrixOS.
-       [Step 3] --> 0) Exit.
+       [Step 1] --> 1) Install CentrixOS.
+       [Step 0] --> 0) Exit.
     
     sudo reboot now
 
