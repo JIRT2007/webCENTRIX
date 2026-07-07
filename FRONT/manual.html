@@ -32,28 +32,58 @@
     <div class="bloque">
         <h3>Presentation</h3>
         <ul>
-            <li>CentrixOS is a customization layer for GNU/Linux designed to provide a preconfigured Hyprland desktop environment.</li>
+            <li>CentrixCL is a customization layer for GNU/Linux designed to provide a preconfigured Hyprland desktop environment.</li>
                 <br>
             <li>This project is developed by JIRT2007 and follows a principle of minimalism that seeks to install the minimum and necessary to offer an aesthetic and correctly preconfigured desktop environment.</li>
                 <br>
-            <li>The project is inspired by Omarchy, developed by David Heinemeier Hansson (DHH).</li>
+            <li>The project is inspired by Omarchy, developed by David Heinemeier Hansson (DHH).</li>        
         </ul>
+    </div>
+
+
+
+    <div class="bloque">
+        <h3>Installation steps</h3>
+        <ul>
+            <li>sudo pacman -S git</li>
+                <br>
+            <li>git config --global user.name "USERNAME"</li>
+                <br>
+            <li>git config --global user.email "USERMAIL"</li>
+                <br>
+            <li>chmod +x CentrixCL/install.sh</li>
+                <br>
+            <li>./CentrixCL/install.sh</li>
+                <br>
+            <li>1) Install CentrixCL.</li>
+                <br>
+            <li>0) Exit.</li>
+                <br>
+            <li>sudo reboot now</li>
+                <br>
+        </ul>
+
+        <div class="bloque2">
+            <h3>WARNING</h3>
+            <ul>
+                <li>CentrixCL can contain bugs like any software product.</li>
+                    <br>
+                <li>It is recommended to install CentrixCL on a "raw" operating system and preferably in TTY mode.</li>
+            </ul>
+        </div>
+
     </div>
 
     <div class="bloque">
         <h3>Keybindings</h3>
         <ul>
-            <li>F1 (Launch terminal)</li>
+            <li>Alt + Q (Launch terminal)</li>
                 <br>
-            <li>F2 (Close program)</li>
+            <li>Alt + C (Close program)</li>
                 <br>
-            <li>F3 (Launch Wofi)</li>
+            <li>Alt + W (Launch Fuzzel)</li>
                 <br>
-            <li>Alt + Q (Floating window)</li>
-                <br>
-            <li>Ctrl + Alt + <-- (Move to the workspace on the left)</li>
-                <br>
-            <li>Ctrl + Alt + --> (Move to the workspace on the right)</li>
+            <li>Alt + V (Floating window)</li>
                 <br>
             <li>Alt + Click (Move window)</li>
                 <br>
@@ -70,11 +100,11 @@
                 <br>
             <li>Waybar (Status bar)</li>
                 <br>
-            <li>Wofi (Program launcher)</li>
+            <li>Fuzzel (Program launcher)</li>
                 <br>
             <li>Kitty terminal (Terminal emulator)</li>
                 <br>
-            <li>Swaybg (Wallpapers)</li>
+            <li>Hyprpaper (Wallpapers)</li>
                 <br>
             <li>Zsh + Starship (Shell sistem)</li>
                 <br>
@@ -84,7 +114,7 @@
                 <br>
             <li>Btop and Fastfetch (Status manager)</li>
                 <br>
-            <li>Grim (Screenshots)</li>
+            <li>Hyprshot (Screenshots)</li>
                 <br>
             <li>JetBrains-Mono (Type fonts)</li>
                 <br>
@@ -92,9 +122,11 @@
                 <br>
             <li>Chromium (Web browser)</li>
                 <br>
-            <li>ctrix (Small program manager developed by JIRT2007)</li>
+            <li>cmenu (Small program manager developed by JIRT2007)</li>
                 <br>
-            <li>Alsa-utils (Audio manager)</li>
+            <li>Alsa-utils and Playerctl (Audio manager)</li>
+                <br>
+            <li>Vim (Text editor)</li>
         </ul>
     </div>
 
@@ -110,11 +142,11 @@
     </div>
 
     <div class="bloque">
-        <h3>Centrix Control</h3>
+        <h3>CentrixCL Control</h3>
         <ul>
-            <li>Centrix Control is a program developed by JIRT2007 using Shell Script to manage simple CentrixOS functions.</li>
+            <li>CentrixCL Control is a program developed by JIRT2007 using Shell Script to manage simple CentrixCL functions.</li>
                 <br>
-            <li>It is executed using the 'ctrix' command and is developed for systems x86_64 with SystemD.</li>
+            <li>It is executed using the 'cmenu' command and is developed for systems x86_64 with SystemD.</li>
                 <br>
             <li>The program allows you to manage system customizations, simple control of virtual machines with QEMU and offers a menu for equipment energy management.</li>
           

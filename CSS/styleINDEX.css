@@ -99,40 +99,7 @@ p a {
     background: #000;
 }
 
-.bloque {
-    width: 70%;
-    max-width: 1000px;
-    margin: 2px auto;
-    padding: 0;
-    background-color: #0d1117;
-    color: white;
-    border: 2px solid #7A7CF7;
-    border-radius: 3px;
-    overflow: hidden;
-}
 
-.bloque pre {
-    margin: 0;
-    padding: 20px;
-    color: #ffffff;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 15px;
-    line-height: 1.5;
-    overflow-x: auto;
-}
-
-code {
-    font-family: inherit;
-}
-
-.instalacionTITLE{
-    color: #7A7CF7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 30px;
-}
 
 /*TABLET*/
 @media (max-width: 768px) {
